@@ -48,3 +48,5 @@ Docker Hub Frontend: huynhhtrunghau/frontend:latest (https://hub.docker.com/r/hu
 Render App Frontend (Web): https://web-239671.onrender.com/
 
 Render App Backend (API): https://api-239671.onrender.com/api/employees
+
+Link Data MongoDB: mongodb+srv://s239671_db_user:OlXU0TGSxAA29pmS@cluster0.5saav2j.mongodb.net/239671_HuynhTrungHau?retryWrites=true&w=majority
