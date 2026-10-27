@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+// Xử lý loại bỏ tất cả dấu / ở cuối URL biến môi trường nếu có
+const RAW_API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = RAW_API_URL.replace(/\/+$/, '');
 
 function App() {
   const [employees, setEmployees] = useState([]);
